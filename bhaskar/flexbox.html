@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin-left: 0px;
+            padding-left: 0px;
+        }
+
+    .parent{
+        display: flex;
+        flex-direction: column;
+        min-width: 200px;
+    }
+
+     .child1 {
+    
+        background-color:aqua;
+        text-decoration-color: white;
+        color:white;
+        height: 50px;
+        padding: 10px;
+        margin: 2px;
+        margin-bottom:5px;
+        
+     }
+     .child2 {
+    
+        background-color:red;
+        text-decoration-color: white;
+        color:white;
+        height: 50px;
+        padding: 5px;
+        margin: 2px;
+        margin-top: 2px;
+     }.flex-container {
+        display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+  margin: 2px;
+}
+
+.flex-container > div {
+    background-color: DodgerBlue;
+  color: white;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.child3 {
+    
+    background-color:gray;
+    text-decoration-color: white;
+    color:white;
+    height: 10px;
+    padding: 10px;
+    margin:0.5px;
+    
+ }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+    <div class="child1">
+        Header
+    </div>
+    <div class="child2">
+     Hero
+    </div >
+    <div class="flex-container">
+       <div style="flex-grow: 10;background-color: green; height: 400px;">content</div>
+       <div style="flex-grow: 1;background-color: blueviolet;" > sidebar   </div>
+    </div>
+   <div class="child3">
+    footer
+   </div>
+   </div>
+</body>
+</html>
