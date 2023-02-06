@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> flex</title>
+    <style>
+    .container1{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border-color:20px solid black ;
+    padding:10px;
+    background-color: rgb(253, 253, 253);
+    color: beige;
+  }
+  .item1{
+    background-color: rgb(55, 101, 252);
+height:10px ;
+    width:1200px;
+     border-color: 10px white ;
+    padding:100px;
+  ;
+    
+  }
+  .item2{
+    background-color: rgb(249, 36, 36);
+    height:50px;
+    width:1200px ;
+    padding:100px ;
+    border-color: aliceblue;
+    padding: 100px;
+    
+  } 
+  .container2{display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-color:100px solid black ;
+    padding:10px ;
+    height: px;
+    color: beige;
+  }
+   .item3{ 
+    background-color: rgb(26, 205, 50);
+    height:800px;
+    width:900px;
+    border-color:10px aliceblue;
+padding:10px ;
+    
+
+}
+.item4{
+ background-color: rgb(87, 21, 167);
+ height: 800px;
+ width:600px ;
+ border-color:10px aliceblue;
+ padding:10px ;
+ 
+}
+.container3 {display: flex;
+ align-items: center;
+ border-color:10px solid black ;
+ padding:10px;
+ background-color: rgb(253, 253, 253);
+ color: beige;
+}
+.item5{
+ background-color: rgba(0, 0, 0, 0.406);
+ height:50px ;
+ width: 1600px;
+ border-color:5px aliceblue;
+ padding:10 px ;}
+ </style>
+</head>
+<body>
+<div class="container1">
+<div class="item1"> 
+    HEADER
+ </div>
+
+ <div class="item2">
+    HERO
+ </div>
+
+ </div>
+
+ <div class="container2">
+
+<div class="item3">
+     content
+</div>
+        
+<div class="item4">
+     sidebar
+</div>
+    </div>
+    <div class="container3">
+
+    <div class="item5">
+        footer
+    </div>
+</div>
+</body>
+</html>
