@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids</title>
+    <style>
+        body {
+            border: 1px solid;
+        }
+
+        .f1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #Header {
+            top: auto;
+            border: 3px solid white;
+            background-color: rgb(3, 168, 245);
+            /* width: 1513px; */
+            color: white;
+        }
+
+        #Hero {
+
+            border: 3px solid white;
+            background-color: red;
+            /* width: 1513px; */
+            height: 5cm;
+            color: white;
+        }
+
+        .f2 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #Content {
+            border: 3px solid white;
+            background-color: rgb(55, 209, 55);
+            width: 100%; 
+            height: 12cm;
+            color: white;
+        }
+
+        #Sidebar {
+            border: 3px solid white;
+            background-color: rgb(82, 47, 188);
+            width: 60%; 
+            height: 12cm;
+            color: white;
+        }
+
+        #Footer {
+            border: 3px solid white;
+            background-color: rgb(83, 82, 82);
+            /* width: 1500; */
+            height: 1cm;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="f1">
+        <div id="Header">Header</div>
+        <div id="Hero">Hero</div>
+        <div class="f2">
+            <div id="Content">Content</div>
+            <div id="Sidebar">Sidebar</div>
+        </div>
+        <div id="Footer">Footer</div>
+    </div>
+</body>
+
+</html>
