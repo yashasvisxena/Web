@@ -1,0 +1,63 @@
+.box {
+
+    font-size: 100px;
+    text-shadow: 2px 3px 12px rgb(123, 89, 89);
+    background-color: #eee;
+    padding: 10px;
+    margin: 20px;
+}
+section{
+    border: 3px solid red;
+}
+.container {
+    margin:0;
+    /* margin: 10px; */
+    padding: 0;
+    display: flex;
+    flex-direction: column;/*default is row*/
+    justify-content: space-around;/*for full content*/
+    /*its a property wrt to the
+    items like baseline will align every item with their base*/
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    row-gap:2px;
+
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background-color: rgb(168, 131, 131);
+    padding: 10px;
+    margin: 10px;
+}
+.box1 {
+    font-size: small;
+    background-color: antiquewhite;
+    height: 30px;
+}
+.box2 {
+    font-size: medium;
+    height: 100px;
+    background-color: bisque;
+}
+.box3 {
+    font-size: 30px;
+    width: 75%;
+    height: 400px;
+    background-color: rgb(85, 68, 43);
+}
+.box4 {
+    font-size: 30px;
+    width: 25%;
+    background-color: burlywood;
+}
+.box5 {
+    font-size: 30px;
+    background-color: blueviolet;
+    height: 100px;
+}
