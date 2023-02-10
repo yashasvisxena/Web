@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+     .head {
+    
+        background-color:aqua;
+        text-decoration-color: white;
+        margin: 5px;
+        height: 50px;
+        padding:10px;
+        margin-bottom:10px;
+        
+     }
+     .hero {
+    
+        background-color:red;
+        text-decoration-color: white;
+        color:white;
+        height: 80px;
+        padding: 10px;
+        margin: 5px;
+        margin-top: 0.5px;
+     }
+     .flex-container {
+        display: flex;
+  align-items:stretch;
+  background-color: #f1f1f12c;
+  margin:0.5px;
+}
+
+.flex-container > div {
+    background-color: lightblue;
+  color: white;
+  margin: 5px;
+  text-align: left;
+ 
+ 
+}
+.footer {
+    
+    background-color:gray;
+    text-decoration-color: white;
+    margin:5px;
+    height: 20px;
+    padding: 10px;
+    
+    
+ }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+    head
+    </div>
+    <div class="hero">
+    hero
+    </div >
+    <div class="flex-container">
+    <div style="flex-grow: 10;background-color: green; height: 400px;">content</div>
+    <div style="flex-grow: 1;background-color: blueviolet;" > sidebar   </div>
+    </div>
+   <div class="footer">
+    footer
+   </div>
+</body>
+</html>
